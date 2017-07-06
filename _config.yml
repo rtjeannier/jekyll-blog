@@ -1,8 +1,8 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
+title: Roland's Blog
+header-img: img/fells_point.jpg
 email: rtjeannier@gmail.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: Roland Jeannier
 description: "Roland Jeannier is a data scientist with a particular interest in data visualization."
 baseurl: ""
 url: "http://rolandjeannier.com"

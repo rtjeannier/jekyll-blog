@@ -5,6 +5,8 @@ date: "2017-07-06 13:36"
 author: Roland Jeannier
 comments: True
 ---
+Allow me to Introduce Myself
+============================
 
 My name is Roland and I am a data scientist; or at least I am trying to be. Over the next few months I will be blogging about my journey into the exciting new space of data and data accessories.
 

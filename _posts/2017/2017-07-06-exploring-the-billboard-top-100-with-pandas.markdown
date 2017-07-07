@@ -4,6 +4,7 @@ title: "Exploring the Billboard Top 100 with Pandas"
 date: "2017-07-06 19:00"
 author: Roland Jeannier
 tags: [Pandas, Visualization]
+comments: True
 ---
 Understanding our Data
 ======================

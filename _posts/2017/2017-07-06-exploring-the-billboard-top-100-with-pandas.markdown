@@ -5,7 +5,9 @@ date: "2017-07-06 19:00"
 author: Roland Jeannier
 tags: [Pandas, Visualization]
 ---
-The data set below is a selection from this larger dataset (link here) of songs from the year 2000 on Billboard's top 100.
+Understanding our Data
+======================
+The data set below is a selection from this larger dataset (link [here](https://github.com/rtjeannier/jekyll-blog/blob/master/data/billboard.csv)) of songs from the year 2000 on Billboard's top 100.
 
 |year|artist_inverted|track|time|genre|date_entered|date_peaked|x1st_week|...|x53rd_week|x54th_week|x55th_week|x56th_week|x57th_week|x58th_week|x59th_week|x60th_week|
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -45,6 +47,8 @@ Oh man, 2000 wasn't exactly the greatest year for music. But nonetheless, there 
 
 This calls for a visualization!
 
+Visualizing our Data
+====================
 Plotting with pandas can be incredibly simple, especially when we have a well organized dataframe. To plot what the runs of the top 5 songs looked we only need a few lines of code.
 
 ```python

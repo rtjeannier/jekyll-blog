@@ -2,6 +2,7 @@
 layout: "post"
 title: "Welcome to my Blog"
 date: "2017-07-06 13:36"
+author: Roland Jeannier
 comments: True
 ---
 

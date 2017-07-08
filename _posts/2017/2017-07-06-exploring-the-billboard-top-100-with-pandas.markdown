@@ -50,7 +50,7 @@ This calls for a visualization!
 
 Visualizing our Data
 ====================
-Plotting with pandas can be incredibly simple, especially when we have a well organized dataframe. To plot what the runs of the top 5 songs looked we only need a few lines of code.
+Plotting with pandas can be incredibly simple, especially when we have a well organized dataframe. To plot the runs of the top 5 songs we only need a few lines of code.
 
 ```python
 # First we need to import some plotting libraries
@@ -61,8 +61,8 @@ df_weeks[top_5.track].plot(style='-')
 ```
 ![Top 5 Billboard Runs](/img/plots/billboardtop5_weekly.png)
 
-This answers many of my earlier questions, but this plot is still a bit deceptive. The x axis of this plot represents the week a song entered the top 100; meaning every song's run starts at week one. However, each song on the chart has a different *literal* week of the year 2000 for its week one, meaning the start date for 'Higher' is a different week one than the start date for 'Amazed'. Our current plot does not show this. Additionally, there is a visible gap between weeks 20 and 40. After examining this phenomena I learned that the datatset being used for these plots is apparently corrupted. A large portion of the values between the columns xWeek20 and xWeek40 are totally missing.
+This answers many of my earlier questions, but this plot is still a bit deceptive. The x axis of this plot represents the week a song entered the top 100; meaning every song's run starts at week one. However, each song on the chart has a different *literal* week of the year 2000 for its week one, meaning the start date for 'Higher' is a different week one than the start date for 'Amazed'. Our current plot does not show this. Additionally, there is a visible gap between weeks 20 and 40. After examining this phenomena I learned that the dataset being used for these plots is apparently corrupted. A large portion of the values between the columns xWeek20 and xWeek40 are totally missing.
 
-If we were to somehow translate our x axis to actual dates we could make the plot I really want to see and simultaneously allow ourselves to examine what rankings are missing from the chart for a given week. We could infer our missing data by iteratating over each week in the year 2000 and find what rankings from the top 100 are missing.
+If we were to somehow translate our x axis to actual dates we could make the plot I really want to see and simultaneously allow ourselves to examine what rankings are missing from the chart for a given week. We could infer our missing data by iterating over each week in the year 2000 and find what rankings from the top 100 are missing.
 
 In order to do this we are going to have to work with Timeseries. But I will save that analysis for next time...

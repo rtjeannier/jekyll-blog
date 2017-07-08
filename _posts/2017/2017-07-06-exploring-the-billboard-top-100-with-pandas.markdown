@@ -61,8 +61,8 @@ df_weeks[top_5.track].plot(style='-')
 ```
 ![Top 5 Billboard Runs](/img/plots/billboardtop5_weekly.png)
 
-This answers many of my earlier questions. But this plot is still a little deceptive. The x axis is the week the song was on the chart, so all songs start at week one. I would like to see what this chart looks like over time. Also, there is a big gap between weeks 20 and 40. Looking at the dataset more closely I learned that somehow a large chunk of the data for these weeks is unreported.
+This answers many of my earlier questions, but this plot is still a bit deceptive. The x axis of this plot represents the week a song entered the top 100; meaning every song's run starts at week one. However, each song on the chart has a different *literal* week of the year 2000 for its week one, meaning the start date for 'Higher' is a different week one than the start date for 'Amazed'. Our current plot does not show this. Additionally, there is a visible gap between weeks 20 and 40. After examining this phenomena I learned that the datatset being used for these plots is apparently corrupted. A large portion of the values between the columns xWeek20 and xWeek40 are totally missing.
 
-If we were to somehow translate this x axis to time we could make the plot I really want to see and also examine what numbers are missing from the chart for a given week. If we could find the missing numbers for a song between weeks 20 and 40 perhaps we could fill in some of our missing data.
+If we were to somehow translate our x axis to actual dates we could make the plot I really want to see and simultaneously allow ourselves to examine what rankings are missing from the chart for a given week. We could infer our missing data by iteratating over each week in the year 2000 and find what rankings from the top 100 are missing.
 
-In order to do this we are going to have to work with Timeseries. But we will have to save that analysis for next time...
+In order to do this we are going to have to work with Timeseries. But I will save that analysis for next time...

@@ -1,7 +1,7 @@
 ---
 layout: "post"
-title: "Exploring the Billboard Top 100 with Pandas"
-date: "2017-07-06 19:00"
+title: "Exploring the Billboard Top 100 with Pandas (Part 2)"
+date: "2017-07-14 19:00"
 author: Roland Jeannier
 tags: [Pandas, Visualization]
 comments: True

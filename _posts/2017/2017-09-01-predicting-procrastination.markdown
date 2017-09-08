@@ -127,7 +127,7 @@ plt.xlabel('False Positive Rate', fontsize=18);
 plt.xticks(fontsize=14)
 plt.yticks(fontsize=14)
 ```
-![Top 5 Billboard Runs](/img/plots/procr_roc_auc.png)
+![AUC_ROC](/img/plots/procr_roc_auc.png)
 
 Wow! 0.992 AUC_ROC. That is amazing. I think we can safely say we have created an extremely effective model for predicting procrastination.
 

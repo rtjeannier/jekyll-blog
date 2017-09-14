@@ -6,7 +6,8 @@ copyright_name: Roland Jeannier
 description: "Roland Jeannier is a data scientist with a particular interest in data visualization."
 baseurl: ""
 url: "http://rolandjeannier.com"
-github_username:  rtjeannier
+github_username: rtjeannier
+permalink: /blog/
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID

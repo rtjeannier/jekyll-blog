@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "Portfolio"
-description: "Projects"
-header-img: ""
+description: "Projects I have worked on"
+header-img: "img/portfolio.jpg"
 ---
 ## [Predicting Procrastination](https://github.com/rtjeannier/productivity_learner)
 #### Using machine learning to enhance productivity
